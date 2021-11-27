@@ -8,13 +8,14 @@ DB2B39
 846267
 */
 
-
 /* Global styles
 ------------------------------------*/
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 body {
@@ -26,32 +27,33 @@ body {
 img {
   width: 300px;
 }
-a{
+a {
   color: #2c2727;
 }
-a:hover{
+a:hover {
   text-decoration: none;
 }
-h2{
+h2 {
   font-size: 50px;
   margin-bottom: 3px;
 }
-h1,h2{
-  font-family: 'Kaushan Script', cursive;
+h1,
+h2 {
+  font-family: "Kaushan Script", cursive;
   font-weight: 500;
   margin: 2px;
 }
-h1{
+h1 {
   font-size: 80px;
   line-height: 1;
 }
-p{
-  font-family: 'Playfair Display', serif;
-  margin:0;
+p {
+  font-family: "Playfair Display", serif;
+  margin: 0;
   font-size: 18px;
 }
 
-.content-wrapper{
+.content-wrapper {
   width: 800px;
   margin: 0 auto;
   padding: 30px 0;
@@ -61,55 +63,55 @@ p{
 ------------------------------------*/
 header {
   background: #efbcd5;
-  color: #F7FFF7;
+  color: #f7fff7;
   text-align: center;
 }
-
 
 /* Projects
 ------------------------------------*/
 .projects {
   background: #e8e288;
 }
-.projects .btn{
+.projects .btn {
   padding: 5px;
   background-color: #6a6cda;
   display: inline-block;
   text-decoration: none;
   border-radius: 5px;
-  color: #F7FFF7;
+  color: #f7fff7;
 }
-.projects .btn:hover{
-  background-color:rgba(80, 82, 184,80%) ;
+.projects .btn:hover {
+  background-color: rgba(80, 82, 184, 80%);
 }
 
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-  background: #DB2B39;
+  background: #db2b39;
   color: gold;
 }
-
-
+.jobItem {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 15px;
+}
 /* Education
 ------------------------------------*/
-
-
 
 /* Contact Info
 ------------------------------------*/
 footer {
   background: #7dce82;
-  color: #F7FFF7;
+  color: #f7fff7;
   text-align: center;
 }
-.contactList{
+.contactList {
   list-style-type: none;
   padding: 0;
   display: flex;
   justify-content: center;
 }
-.contactList a{
+.contactList a {
   padding: 15px;
   display: inline-block;
 }
