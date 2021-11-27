@@ -1,0 +1,97 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+efbcd5
+e8e288
+7dce82
+DB2B39
+846267
+*/
+
+
+/* Global styles
+------------------------------------*/
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a{
+  color: #2c2727;
+}
+a:hover{
+  text-decoration: none;
+}
+h2{
+  font-size: 50px;
+  margin-bottom: 3px;
+}
+h1,h2{
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 500;
+  margin: 2px;
+}
+h1{
+  font-size: 80px;
+  line-height: 1;
+}
+p{
+  font-family: 'Playfair Display', serif;
+  margin:0;
+  font-size: 18px;
+}
+
+.content-wrapper{
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+/* Profile
+------------------------------------*/
+header {
+  background: #efbcd5;
+  color: #F7FFF7;
+}
+
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #e8e288;
+}
+.projects .btn{
+  padding: 5px;
+  background-color: #6a6cda;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #F7FFF7;
+}
+.projects .btn:hover{
+  background-color:rgba(80, 82, 184,80%) ;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #DB2B39;
+  color: gold;
+}
+
+
+/* Education
+------------------------------------*/
+
+
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #7dce82;
+  color: #F7FFF7;
+}
