@@ -54,7 +54,8 @@ p {
 }
 
 .content-wrapper {
-  width: 800px;
+  max-width: 1000px;
+  width : 80%;
   margin: 0 auto;
   padding: 30px 0;
 }
@@ -70,7 +71,6 @@ p {
 header {
   background: #efbcd5;
   color: #f7fff7;
-  text-align: center;
 }
 
 /* Projects
@@ -92,10 +92,6 @@ header {
 .projects a {
   color: black;
 }
-.proItem img {
-  float: left;
-  margin-right: 20px;
-}
 .proItem h3{
   margin-top: 0;
 }
@@ -109,31 +105,66 @@ header {
   background: #db2b39;
   color: gold;
 }
-.jobItem {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  column-gap: 15px;
-}
+
 .jobDetails > h3{
   margin-top: 0;
 }
 /* Education
 ------------------------------------*/
-
+.education{
+  background-image: url(../images/tim-mossholder-WE_Kv_ZB1l0-unsplash.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  padding-bottom: 80px;
+  color: rgb(80, 134, 204);
+}
+.education
 /* Contact Info
 ------------------------------------*/
 footer {
   background: #7dce82;
   color: #f7fff7;
-  text-align: center;
 }
 .contactList {
   list-style-type: none;
   padding: 0;
-  display: flex;
-  justify-content: center;
 }
 .contactList a {
   padding: 15px;
   display: inline-block;
+}
+/* Media Query
+------------------------------------*/
+@media screen and (min-width : 780px) {
+  header, footer {
+    text-align: center;
+  }
+  .proItem img {
+    float: left;
+    margin-right: 20px;
+  }
+  .jobItem {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 15px;
+  }
+  .contactList{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width : 779px ) {
+  h1 {
+    font-size: 70px;
+    line-height: 0.9;
+    margin-bottom: 20px;
+  }
+  h2{
+    line-height: 1;
+  }
+  .contactList a{
+    padding: 5px;
+  }
 }
