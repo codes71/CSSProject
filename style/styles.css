@@ -58,7 +58,13 @@ p {
   margin: 0 auto;
   padding: 30px 0;
 }
-
+.divide > section{
+  border-bottom: 1px dotted grey;
+  padding : 25px 0;
+}
+.divide > section:last-of-type{
+  border-bottom: none;
+}
 /* Profile
 ------------------------------------*/
 header {
@@ -83,6 +89,19 @@ header {
 .projects .btn:hover {
   background-color: rgba(80, 82, 184, 80%);
 }
+.projects a {
+  color: black;
+}
+.proItem img {
+  float: left;
+  margin-right: 20px;
+}
+.proItem h3{
+  margin-top: 0;
+}
+.proItem{
+  overflow: hidden;
+}
 
 /* Work Experience
 ------------------------------------*/
@@ -94,6 +113,9 @@ header {
   display: grid;
   grid-template-columns: 1fr 2fr;
   column-gap: 15px;
+}
+.jobDetails > h3{
+  margin-top: 0;
 }
 /* Education
 ------------------------------------*/
